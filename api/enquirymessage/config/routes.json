@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/enquirymessages",
+      "handler": "Enquirymessage.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/enquirymessages/count",
+      "handler": "Enquirymessage.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/enquirymessages/:id",
+      "handler": "Enquirymessage.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/enquirymessages",
+      "handler": "Enquirymessage.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/enquirymessages/:id",
+      "handler": "Enquirymessage.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/enquirymessages/:id",
+      "handler": "Enquirymessage.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

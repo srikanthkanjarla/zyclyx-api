@@ -1,0 +1,31 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "enquirymessage",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "required": true,
+      "type": "string"
+    },
+    "email": {
+      "required": true,
+      "type": "email"
+    },
+    "phone": {
+      "type": "integer"
+    },
+    "subject": {
+      "type": "text"
+    },
+    "message": {
+      "required": true,
+      "type": "text"
+    }
+  }
+}
