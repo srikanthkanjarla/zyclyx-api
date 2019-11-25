@@ -1,12 +1,15 @@
 {
   "connection": "default",
-  "collectionName": "",
+  "collectionName": "jobopening",
   "info": {
     "name": "jobopening",
     "description": ""
   },
   "options": {
-    "timestamps": true
+    "timestamps": [
+      "createdAt",
+      "updatedAt"
+    ]
   },
   "attributes": {
     "title": {
@@ -19,9 +22,6 @@
     "location": {
       "type": "text"
     },
-    "jobtype": {
-      "type": "string"
-    },
     "dateposted": {
       "type": "date"
     },
@@ -30,6 +30,12 @@
     },
     "qualifications": {
       "type": "json"
+    },
+    "jobtype": {
+      "type": "string"
+    },
+    "jobcategory": {
+      "type": "string"
     }
   }
 }
