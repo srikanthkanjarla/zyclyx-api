@@ -1,0 +1,33 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "jobapplication",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "firstname": {
+      "type": "string"
+    },
+    "lastname": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "phone": {
+      "type": "integer"
+    },
+    "message": {
+      "type": "text"
+    },
+    "resume": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "jobopening",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "required": true,
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "location": {
+      "type": "text"
+    },
+    "jobtype": {
+      "type": "string"
+    },
+    "dateposted": {
+      "type": "date"
+    },
+    "requirements": {
+      "type": "json"
+    },
+    "qualifications": {
+      "type": "json"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/jobapplications",
+      "handler": "Jobapplication.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/jobapplications/count",
+      "handler": "Jobapplication.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/jobapplications/:id",
+      "handler": "Jobapplication.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/jobapplications",
+      "handler": "Jobapplication.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/jobapplications/:id",
+      "handler": "Jobapplication.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/jobapplications/:id",
+      "handler": "Jobapplication.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

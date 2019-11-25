@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/jobcategories",
+      "handler": "Jobcategory.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/jobcategories/count",
+      "handler": "Jobcategory.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/jobcategories/:id",
+      "handler": "Jobcategory.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/jobcategories",
+      "handler": "Jobcategory.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/jobcategories/:id",
+      "handler": "Jobcategory.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/jobcategories/:id",
+      "handler": "Jobcategory.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
