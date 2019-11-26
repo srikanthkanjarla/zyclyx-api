@@ -22,20 +22,24 @@
     "location": {
       "type": "text"
     },
-    "dateposted": {
+    "lastdate": {
       "type": "date"
     },
     "requirements": {
       "type": "json"
     },
-    "qualifications": {
+    "responsibilities": {
       "type": "json"
     },
     "jobtype": {
       "type": "string"
     },
-    "jobcategory": {
-      "type": "string"
+    "jobstatus": {
+      "enum": [
+        "open",
+        "closed"
+      ],
+      "type": "enumeration"
     }
   }
 }
