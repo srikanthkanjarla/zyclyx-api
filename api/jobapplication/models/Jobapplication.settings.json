@@ -1,12 +1,15 @@
 {
   "connection": "default",
-  "collectionName": "",
+  "collectionName": "jobapplication",
   "info": {
     "name": "jobapplication",
     "description": ""
   },
   "options": {
-    "timestamps": true
+    "timestamps": [
+      "createdAt",
+      "updatedAt"
+    ]
   },
   "attributes": {
     "firstname": {
@@ -28,6 +31,9 @@
       "model": "file",
       "via": "related",
       "plugin": "upload"
+    },
+    "position": {
+      "type": "string"
     }
   }
 }
