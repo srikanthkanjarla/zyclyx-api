@@ -22,9 +22,6 @@
     "location": {
       "type": "text"
     },
-    "lastdate": {
-      "type": "date"
-    },
     "requirements": {
       "type": "json"
     },
@@ -40,6 +37,12 @@
         "closed"
       ],
       "type": "enumeration"
+    },
+    "experience": {
+      "type": "string"
+    },
+    "salary": {
+      "type": "string"
     }
   }
 }
